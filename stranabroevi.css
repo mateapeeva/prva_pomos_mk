@@ -1,0 +1,58 @@
+
+.title {color: #1C945A}
+
+ * {
+  box-sizing: border-box;
+}
+
+#myInput {
+	border-left: 40px solid #FFFFFF;
+	border-right: 40px solid #FFFFFF;
+    padding:15px;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+	border-left: 40px solid #FFFFFF;
+	border-right: 40px solid #FFFFFF;
+  	border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #eee;
+}
+
+#myAlert{
+	border-left: 40px solid #FFFFFF;
+	border-right: 40px solid #FFFFFF;
+	background-color: #eee;
+}
+
+#myNav{
+	background-color: #eee;
+}
+
+footer{
+	background-color: #eee;
+}
+
+#myCard1{
+	border-left: 40px solid #eee;
+	border-right: 40px solid #eee;
+	background-color: #eee;
+}

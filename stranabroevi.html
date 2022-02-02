@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Броеви за Брза Помош</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="stranabroevi.css"/>
+</head>
+<body>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+				<path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+			</svg>
+			Броеви за Брза Помош
+		</a>
+	</nav>
+	<nav class="navbar navbar-light bg-light" >
+		<div class="container-fluid">
+			<span class="navbar-brand mb-0 h1"><h1><b>Основен број: 194</b></h1></span>
+		</div>
+	</nav>
+	<div class="alert alert-secondary" role="alert" id = "myAlert">
+		Подолу може да најдете и други броеви на кои може да се јавите. Истите може да ги пребарувате по град.
+	</div>
+
+	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Пребарувајте по градови..." title="Внесете име на град">
+
+	<br>
+	<br>
+
+	<table id="myTable">
+		<tr class="header">
+			<th style="width:25%;">Град</th>
+			<th style="width:25%;">Општа Болница</th>
+			<th style="width:25%;">Здраствен Дом</th>
+			<th style="width:25%;">Клиничка Болница</th>
+		</tr>
+		<tr>
+			<td>Скопје</td>
+			<td>02 3087 400</td>
+			<td>02 3134 534<br>
+				02 3134 485<br>
+				02 3134 484
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Битола</td>
+			<td>/</td>
+			<td>047 242 675</td>
+			<td>047 243 411</td>
+		</tr>
+		<tr>
+			<td>Гевгелија</td>
+			<td>034 213 710</td>
+			<td>034 211 711</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Гостивар</td>
+			<td>042 212 800</td>
+			<td>042 217 242</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Дебар</td>
+			<td>046 831 445</td>
+			<td>046 832 473<br>
+				046 834 719
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Кавадарци</td>
+			<td>043 413 315</td>
+			<td>043 414 154</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Кичево</td>
+			<td>045 222 151</td>
+			<td>045 222 120</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Кочани</td>
+			<td>033 247 500</td>
+			<td>033 612 400</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Крива Паланка</td>
+			<td>/</td>
+			<td>031 475 777</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Куманово</td>
+			<td>031 245 460</td>
+			<td>031 422 484<br>
+				031 421 199
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Охрид</td>
+			<td>046 262 395</td>
+			<td>046 258 866</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Прилеп</td>
+			<td>048 407 000</td>
+			<td>048 428 280<br>
+				048 428 184
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Струга</td>
+			<td>046 786 008</td>
+			<td>046 783 509</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Струмица</td>
+			<td>034 344 444</td>
+			<td>034 327 920</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Тетово</td>
+			<td>/</td>
+			<td>044 356 530</td>
+			<td>075 200 304</td>
+		</tr>
+		<tr>
+			<td>Велес</td>
+			<td>043 231 322</td>
+			<td>043 233 322</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Штип</td>
+			<td>/</td>
+			<td>032 391 995</td>
+			<td>032 394 099</td>
+		</tr>
+		<tr>
+			<td>Берово</td>
+			<td>/</td>
+			<td>033 471 615</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Македонски Брод</td>
+			<td>/</td>
+			<td>045 274 838</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Валандово</td>
+			<td>/</td>
+			<td>034 382 062<br>
+				043 382 017
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Вевчани</td>
+			<td>/</td>
+			<td>046 798 387</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Виница</td>
+			<td>/</td>
+			<td>033 361 311</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Делчево</td>
+			<td>/</td>
+			<td>033 411 508<br>
+				033 411 602
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Демир Хисар</td>
+			<td>/</td>
+			<td>047 276 144</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Кратово</td>
+			<td>/</td>
+			<td>031 481 879</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Крушево</td>
+			<td>/</td>
+			<td>048 477 925<br>
+				048 477 106
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Неготино</td>
+			<td>/</td>
+			<td>043 361 968<br>
+				043 361 109
+			</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Пехчево</td>
+			<td>/</td>
+			<td>033 441 148</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Пробиштип</td>
+			<td>/</td>
+			<td>032 483 136</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Радовиш</td>
+			<td>/</td>
+			<td>032 653 131</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Ресен</td>
+			<td>/</td>
+			<td>047 451 413</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Ростуше</td>
+			<td>/</td>
+			<td>042 478 067</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td>Св. Николе</td>
+			<td>/</td>
+			<td>032 443 169</td>
+			<td>/</td>
+		</tr>
+	</table>
+
+	<script>
+		function myFunction() {
+			var input, filter, table, tr, td, i, txtValue;
+			input = document.getElementById("myInput");
+			filter = input.value.toUpperCase();
+			table = document.getElementById("myTable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				td = tr[i].getElementsByTagName("td")[0];
+				if (td) {
+					txtValue = td.textContent || td.innerText;
+					if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+					} else {
+						tr[i].style.display = "none";
+					}
+				}       
+			}
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+<br>
+<footer>
+	<br>
+	<div class="card" id = "myCard1">
+		<p><b>За секој тип на поплаки можете да ме контактирате на:</b>
+			<br>
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+				<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+			</svg>
+			mateapeeva@gmail.com
+			<br>
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+				<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+			mateapeeva.github.io
+		</p>
+	</div>
+	<div class = "card" id = "myCard1">
+		<p><b>Повеќе информации може да најдете на:</b>
+			<br>
+			http://zdravstvo.gov.mk/adresi-na-zdravstveni-domovi/
+			<br>
+			http://zdravstvo.gov.mk/sekundarna_i_tercierna/
+		</p>
+	</div>
+</footer>
+</html>
